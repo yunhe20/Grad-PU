@@ -121,7 +121,6 @@ def parse_train_args():
     parser.add_argument('--batch_size', default=32, type=int, help='batch size')
     parser.add_argument('--print_rate', default=200, type=int, help='loss print frequency in each epoch')
     parser.add_argument('--save_rate', default=10, type=int, help='model save frequency')
-    parser.add_argument('--local_sigma', default=0.02, type=float, help='used for sample query points')
     parser.add_argument('--out_path', default='./output', type=str, help='the checkpoint and log save path')
 
     args = parser.parse_args()
