@@ -1,6 +1,6 @@
 # Grad-PU
 
- [arXiv](http://arxiv.org/abs/2204.12684) | [Project Page](https://yunhe20.github.io/Grad-PU) | [Code](https://github.com/yunhe20/Grad-PU)
+ [arXiv](https://arxiv.org/abs/2304.11846) | [Project Page](https://yunhe20.github.io/Grad-PU) | [Code](https://github.com/yunhe20/Grad-PU)
 
 This is the official PyTorch implementation of our paper "Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent with Learned Distance Functions" (CVPR 2023).
 
@@ -35,7 +35,7 @@ cd ../pointops
 python setup.py
 ```
 
-* Compile the evaluation_code (optional)
+* Compile the evaluation_code for metric calculation (optional)
 
 To calculate the CD, HD and P2F metrics, you need to install the CGAL library (please follow the [PU-GAN](https://github.com/liruihui/PU-GAN) repo) and virtual environment of PU-GCN (please follow the [PU-GCN](https://github.com/guochengqian/PU-GCN) repo) first. And then you also need to compile the `evaluation_code` folder.
 ```
