@@ -91,7 +91,7 @@ data
 
 ## Quick Start
 
-We have provided the pretarined models in the `pretrained_model` folder, so you can directly use them to reproduce the qualitative and quantitative results.
+We have provided the pretarined models in the `pretrained_model` folder, so you can directly use them to reproduce the results.
 
 * PU-GAN
 ```
