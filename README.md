@@ -30,9 +30,9 @@ h5py==3.6.0
 
 ```
 cd models/Chamfer3D
-python setup.py
+python setup.py install
 cd ../pointops
-python setup.py
+python setup.py install
 ```
 
 * Compile the evaluation_code for metric calculation (optional)
